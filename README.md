@@ -1,2 +1,3 @@
 # CGS_
-<h1>olá</h1>
+<h1>Trabalho Grupo CGS</h1>
+<h3>Maggy and Cláudio</h3>
