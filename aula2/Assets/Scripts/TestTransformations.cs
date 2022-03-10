@@ -12,7 +12,7 @@ public class TestTransformations : MonoBehaviour
     void Start()
     {
 
-        transform.Rotate(rotate);
+        //transform.Rotate(rotate);
         transform.Translate(move);
 
         Debug.Log("Local Scale: " + transform.localScale + "\n" +
@@ -24,8 +24,10 @@ public class TestTransformations : MonoBehaviour
     }
 
     // Update is called once per frame  // not used
-    //void Update()
-    //{
-        
-    //}
+    void Update()
+    {
+        float mover = 1;
+        move.Set(0, mover+1, 0);
+        transform.Rotate(move);
+    }
 }
