@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestTransformations : MonoBehaviour
 {
-    //Declarar Variáveis
+    //Declarar Variaveis
     Vector3 move = new Vector3(5, -1, 0);
     Vector3 rotate = new Vector3(0, 90, 0);
 
